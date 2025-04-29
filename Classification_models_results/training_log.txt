@@ -1,0 +1,94 @@
+
+Random Forest Performance:
+              precision    recall  f1-score   support
+
+     decline       0.30      0.52      0.38      2327
+        grow       0.75      0.71      0.73     26345
+      stable       0.55      0.54      0.54     17154
+
+    accuracy                           0.64     45826
+   macro avg       0.53      0.59      0.55     45826
+weighted avg       0.65      0.64      0.64     45826
+
+------------------------------------------------------------
+
+Gradient Boosting Performance:
+              precision    recall  f1-score   support
+
+     decline       0.26      0.67      0.38      2327
+        grow       0.79      0.66      0.72     26345
+      stable       0.55      0.56      0.56     17154
+
+    accuracy                           0.63     45826
+   macro avg       0.53      0.63      0.55     45826
+weighted avg       0.67      0.63      0.64     45826
+
+------------------------------------------------------------
+
+Logistic Regression Performance:
+              precision    recall  f1-score   support
+
+     decline       0.20      0.77      0.31      2327
+        grow       0.75      0.68      0.71     26345
+      stable       0.51      0.38      0.44     17154
+
+    accuracy                           0.57     45826
+   macro avg       0.49      0.61      0.49     45826
+weighted avg       0.63      0.57      0.59     45826
+
+------------------------------------------------------------
+
+SVM Performance:
+              precision    recall  f1-score   support
+
+     decline       0.20      0.75      0.32      2327
+        grow       0.79      0.59      0.68     26345
+      stable       0.50      0.51      0.50     17154
+
+    accuracy                           0.57     45826
+   macro avg       0.50      0.62      0.50     45826
+weighted avg       0.65      0.57      0.59     45826
+
+------------------------------------------------------------
+
+XGBoost Performance:
+              precision    recall  f1-score   support
+
+     decline       0.32      0.56      0.40      2327
+        grow       0.77      0.71      0.74     26345
+      stable       0.57      0.58      0.57     17154
+
+    accuracy                           0.65     45826
+   macro avg       0.55      0.62      0.57     45826
+weighted avg       0.67      0.65      0.66     45826
+
+------------------------------------------------------------
+
+LightGBM Performance:
+              precision    recall  f1-score   support
+
+     decline       0.34      0.52      0.41      2327
+        grow       0.76      0.71      0.74     26345
+      stable       0.56      0.58      0.57     17154
+
+    accuracy                           0.65     45826
+   macro avg       0.56      0.60      0.57     45826
+weighted avg       0.67      0.65      0.66     45826
+
+------------------------------------------------------------
+
+CatBoost Performance:
+              precision    recall  f1-score   support
+
+     decline       0.38      0.45      0.41      2327
+        grow       0.76      0.73      0.75     26345
+      stable       0.58      0.60      0.59     17154
+
+    accuracy                           0.67     45826
+   macro avg       0.57      0.59      0.58     45826
+weighted avg       0.67      0.67      0.67     45826
+
+------------------------------------------------------------
+
+Best Model: CatBoost with Weighted F1-score: 0.6704
+Model saved as: hpc_outputs/best_model_CatBoost.pkl
